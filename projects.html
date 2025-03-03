@@ -1,0 +1,120 @@
+<!DOCTYPE html>    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Projects</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to Main Content</a>
+    
+    <div id="pageTimer" aria-label="Page Viewing Timer">
+        <i class="fas fa-clock"></i> <span id="timerDisplay">00:00:00</span>
+    </div>
+    
+    <div id="sidebar" class="sidebar">
+        <nav class="sidebar-nav" aria-label="Main Navigation">
+            <h2>My Portfolio Menu</h2>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i><span> Home</span></a></li>
+                <li><a href="projects.html" class="active"><i class="fas fa-code"></i><span> Projects</span></a></li>
+                <li><a href="resume.html"><i class="fas fa-file-alt"></i><span> Resume</span></a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i><span> Contact Me</span></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <button id="sidebarToggle" aria-label="Toggle Sidebar" aria-expanded="true">
+        <i class="fas fa-arrow-left"></i>
+    </button>
+
+    <div id="content">
+        <main id="main">
+            <section class="projects">
+                <h1>My Projects and Research</h1>
+
+                <article class="project" data-aos="fade-up">
+                    <h2>A research project related with XR</h2>
+                    <p class="project-date-location"> Mar 2025 - present | MI, USA</p>
+                    <div class="timer" id="Neurodivergent with XR"></div>
+                    <ul class="project-details">
+                        <li>A research project under Information Interaction Lab, University of Michigan</li>
+                        <li>About to start</li>
+                    </ul>
+                </article>
+
+
+                <article class="project" data-aos="fade-up">
+                    <h2>Vision pro simulation for Online Nursing Education</h2>
+                    <p class="project-date-location">Jan 2025 - present | MI, USA</p>
+                    <div class="timer" id="timer-vision-pro-code-blue"></div>
+                    <ul class="project-details">
+                        <li>Design a medical platform to simulate the medical scene</li>
+                        <li>Mainly focus on the Code Blue scenario</li>
+                        <li>Developed the simulation with swift and Reality Composer</li>
+                        <li>This project aim to help nursing students to practice remotely the Code Blue scenario</li>
+                        <li>This project is still in progress</li>
+                    </ul>
+                </article>
+
+                <article class="project" data-aos="fade-up">
+                    <h2>XR Climate Change</h2>
+                    <p class="project-date-location">Aug 2024 - Dec 2024 | MI, USA</p>
+                    <div class="timer" id="timer-xr-climate-change"></div>
+                    <ul class="project-details">
+                        <li>Focus on the Climate change in the earth</li>
+                        <li>Using the XR technology to show the climate change in the past and future</li>
+                        <li>Present with the height change of Sea Level and polar bear living areas</li>
+                    </ul>
+                </article>
+
+                <article class="project" data-aos="fade-up">
+                    <h2>Students Assistants Discussion Forum</h2>
+                    <p class="project-date-location">Jan 2024 - May 2024 | PA, USA</p>
+                    <div class="timer" id="timer-students-assistants-forum"></div>
+                    <ul class="project-details">
+                        <li>Focus on the Penn State University Students</li>
+                        <li>A comprehensive website can help students to find the group</li>
+                        <li>Housing information provided in the website</li>
+                        <li>Students can discuss everything around the Penn State university and State College</li>
+                        <li><a href="https://www.figma.com/proto/lQ8TmVi1zZF3mpwrINr2tE/IST440w?node-id=1-494&starting-point-node-id=1%3A494">Link</a></li>
+                    </ul>
+                </article>
+
+                <article class="project" data-aos="fade-up">
+                    <h2>Bank Security Assessment Program</h2>
+                    <p class="project-date-location">Jan 2023 - May 2023 | PA, USA</p>
+                    <ul class="project-details">
+                        <li>Partnered with EY's IT audit consultants to assess and enhance the security of a bank's IT infrastructure.</li>
+                        <li>Employed risk assessment tools and surveys to collect user feedback and analyze IT risk indices.</li>
+                        <li>Identified high-risk areas and trends within the IT environment.</li>
+                        <li>Proposed effective risk mitigation strategies and generated reports on financial and cultural impacts.</li>
+                        <li>Recommended solutions to bolster system security, improve customer confidence, and optimize operational efficiency.</li>
+                    </ul>
+                </article>
+
+                <article class="project" data-aos="fade-up">
+                    <h2>StorageBNB Campus Storage Solution</h2>
+                    <p class="project-date-location">Sep 2022 - Dec 2022 | PA, USA</p>
+                    <ul class="project-details">
+                        <li>Conceptualized and planned "StorageBNB," a storage solution for short to long-term needs.</li>
+                        <li>Developed product propositions and feature designs based on user research.</li>
+                        <li>Created three-levels fidelity prototype using Figma, focusing on UI/UX design and feature implementation.</li>
+                        <li><a href="https://www.figma.com/proto/WOZXH4lwayMBIxgpz6PnnJ/IST-331%3A-Storage-BnB?node-id=143-3481&starting-point-node-id=143%3A2052&t=wSOeV9UH8l1ob9OV-1">Link</a></li>
+                    </ul>
+                </article>
+
+            </section>
+        </main>
+        <footer>
+            <p>© <span id="year"></span> Changhong Ding. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
